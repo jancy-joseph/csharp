@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnonymousMethod.cs" />
+    <Compile Include="ArraySorting.cs" />
+    <Compile Include="LongestPalindromicSubstring.cs" />
+    <Compile Include="LRUCache.cs" />
+    <Compile Include="NumbertoWords.cs" />
+    <Compile Include="PrintPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="staticConstructur.cs" />
+    <Compile Include="stringManipulation.cs" />
+    <Compile Include="stringPermutation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
