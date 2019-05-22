@@ -43,12 +43,37 @@ namespace LearnCsharp
             //ArraySorting.sortIntArray();
 
             //PrintPattern.printSineWave("hello world my name is jancy joseph");
-            staticConstructur obj1 = new staticConstructur();
-            staticConstructur obj2 = new staticConstructur();
-            staticConstructur obj3 = new staticConstructur();
-            Console.WriteLine(obj1.Printrandomn());
-            Console.WriteLine(obj2.Printrandomn());
-            Console.WriteLine(obj3.Printrandomn());
+            //staticConstructur obj1 = new staticConstructur();
+            //staticConstructur obj2 = new staticConstructur();
+            //staticConstructur obj3 = new staticConstructur();
+            //Console.WriteLine(obj1.Printrandomn());
+            //Console.WriteLine(obj2.Printrandomn());
+            //Console.WriteLine(obj3.Printrandomn());
+
+            //PalindromeNumber.isPalindrome(123454321);
+
+            //var res = stringManipulation.findUniqueSubstrings("helloxworldmyname is jancy", 3);
+            //foreach(string s in res)
+            //{
+            //    Console.WriteLine(s);
+            //}
+
+            //int[] myarray = new int[] { 1, 4, 20, 3, 10, 5 };
+            //int[] res =ContiguossSubarrayOFGivenSum.FindSubArrayGivenSum_NonNegativeNos(myarray, 33);
+            //if(res!= null)
+            //{
+            //    Console.WriteLine(" array_start_index :{0} array_end_index :{1}", res[0], res[1]);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" No subarrays found!!");
+            //}
+
+            //Need to delete was part of array assignment check
+            //ContiguossSubarrayOFGivenSum.FindSubArrayGivenSum_Manjusha(myarray, 33);
+
+
+
 
             Console.WriteLine("Hello World!");
             Console.ReadKey();

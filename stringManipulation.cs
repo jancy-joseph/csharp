@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,48 @@ namespace LearnCsharp
 
             }
             return sb.ToString();
+        }
+
+        public static List<string> findUniqueSubstrings(string s , int k )
+        {
+            List<string> l1 = new List<string>();
+            if (s == null || s.Length == 0 || s.Length < k)
+            {
+                l1.Add("");
+                return l1;
+            }
+            bool isUniqueSubstring = true;
+            Dictionary<char, int> dcharmap = new Dictionary<char, int>();
+            char[] chr = s.ToCharArray();
+
+            //Console.WriteLine((chr.Length - k));
+
+            for (int i =0; i< (chr.Length-k+1); i++)//here k+1 as we need to consider array of exactly k elements
+            {
+                dcharmap.Clear();
+                isUniqueSubstring = true;
+                for (int j =i; j<(i+k); j++)
+                {
+                    if (!dcharmap.ContainsKey(chr[j]))// if dictioanry doesnot have character in it
+                    {
+                        dcharmap[chr[j]] = 1;
+                    }
+                    else
+                    {
+                        isUniqueSubstring = false;
+                        break;
+                    }
+                }
+                if (isUniqueSubstring)
+                {
+                    string str = s.Substring(i, k);
+                    l1.Add(str);
+
+
+
+                }
+            }
+            return l1;
         }
     }
 }

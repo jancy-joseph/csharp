@@ -44,15 +44,19 @@
   <ItemGroup>
     <Compile Include="AnonymousMethod.cs" />
     <Compile Include="ArraySorting.cs" />
+    <Compile Include="ContiguossSubarrayOFGivenSum.cs" />
+    <Compile Include="Equilibrum_Index.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
     <Compile Include="LRUCache.cs" />
     <Compile Include="NumbertoWords.cs" />
+    <Compile Include="PalindromeNumber.cs" />
     <Compile Include="PrintPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="staticConstructur.cs" />
     <Compile Include="stringManipulation.cs" />
     <Compile Include="stringPermutation.cs" />
+    <Compile Include="Tree_bst.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
